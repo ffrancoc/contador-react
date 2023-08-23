@@ -1,0 +1,32 @@
+.app-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.app-container * {
+  margin: 10px 0px 10px 0px;
+}
+
+.app-container h1 {
+  font-weight: normal;
+  text-align: center;
+}
+
+.app-container div button {
+  width: 70px;
+  height: 30px;
+  border-radius: 10px;
+  border: none;
+  margin: 0px 2px 0px 2px;
+}
+
+.app-container div button:hover {
+  background-color: dodgerblue;
+  color: #fff;
+}
+
+.app-container div button:active {
+  font-weight: bold;
+}

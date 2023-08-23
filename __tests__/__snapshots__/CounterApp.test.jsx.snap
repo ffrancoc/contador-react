@@ -1,0 +1,35 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Pruebas sobre el elemento <App /> deberia hacer match con el snapshot 1`] = `
+<div>
+  <div
+    class="app-container"
+  >
+    <h1>
+      Simple contador en React
+    </h1>
+    <h2
+      aria-label="contador"
+    >
+      10
+    </h2>
+    <div>
+      <button
+        data-testid="btnincrement"
+      >
+        +
+      </button>
+      <button
+        data-testid="btndecrement"
+      >
+        -
+      </button>
+      <button
+        data-testid="btnreset"
+      >
+        Reset
+      </button>
+    </div>
+  </div>
+</div>
+`;
